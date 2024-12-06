@@ -1,0 +1,123 @@
+html, body {
+    background: url(https://www.creativefabrica.com/wp-content/uploads/2022/11/21/Beautiful-Christmas-Village-Scenery-By-Thomas-Kinkade-47732621-1-1.png);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    font-size: 100px;
+    background: url(https://ipla.pluscdn.pl/dituel/cp/g6/g6k22cp4jvzruje4p5bp75wu1ybwaw1f.jpg) center no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 68, 255, 0.521);
+    color: aliceblue;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    align-items: center;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.grid-item:hover {
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.05);
+}
+#item1:hover {
+    background-image: url('https://pk1.pocztakwiatowa.pl/media/catalog/product/xc/thumbnail/550x550/9/1/9101_choinka_1.jpg.jpg');
+}
+
+#item2:hover {
+    background-image: url('https://www.euractiv.pl/wp-content/uploads/sites/6/2017/12/Zrzut-ekranu-2017-12-23-o-18.32.45-800x450.png');
+}
+
+#item3:hover {
+    background-image: url('https://strefamysli.pl/wp-content/uploads/2021/12/istockphoto-1270902491-612x612-1.jpg');
+}
+#item4:hover {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxSUNYqCrCsLvSWCEtnzLCVuaFRJeYHCeOQ&s');
+}
+#item5:hover {
+    background-image: url('https://www.tapeteos.pl/data/media/185/big/swieta__boze_narodzenie__christmas_5120x3200_139_pierniki__dekoracje__ozdoby.jpg');
+}
+#item6:hover {
+    background-image: url('https://zlukaszem.pl/wp-content/uploads/2020/10/3106504850_6cbfe1b574_c.jpg');
+}
+#item7:hover {
+    background-image: url('https://www.belekaj.eu/wp-content/uploads/2016/01/dyker_010.jpg');
+}
+#item8:hover {
+    background-image: url('https://c.allegroimg.com/s1024/0c02c9/2a561d5745b0bee946523066cd8c');
+}
+#item9:hover {
+    background-image: url('https://cdn.galleries.smcloud.net/t/galleries/gf-zA98-rcmQ-4t6R_jaka-bedzie-zima-2020-2021-jaka-pogoda-w-swieta-kiedy-spadnie-pierwszy-snieg-1920x1080-nocrop.jpg');
+}
+#item10:hover {
+    background-image: url('https://s1.1zoom.me/big0/207/361738-admin.jpg');
+}
+#item11:hover {
+    background-image: url('https://www.orlica.com/files/news/big/172830561016703d9caab04c758528428.jpg');
+}
+#item12:hover {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjag6-sYmkY6IjfHGtAsgYgKcYlxM5xsDK4iKBdICEQrllmaTI9T3YTvpDopCImzTFky4FKg94oROlL-BYWnomUht7J8gKEsQyhjDE3N_0tfZ5ldvj0dbRIWlQ-RjpBXA2rM-4h0tCeZoU/s1600/bo%C5%BCe.jpg');
+}
+#item13:hover {
+    background-image: url('https://webp-konwerter.incdn.pl/eyJmIjoiaHR0cHM6Ly9nLmluZm9y/LnBsL3AvX2ZpbGVzLzM3NjUyMDAw/LzE1LXNodXR0ZXJzdG9jay0xMTY1/MzMyOTM3LTM3NjUyMzY2LmpwZyJ9.jpg');
+}
+#item14:hover {
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/12/00/46/christmas-7649942_960_720.jpg');
+}
+#item15:hover {
+    background-image: url('https://i.pinimg.com/236x/1e/54/ea/1e54ea521b24529376b34f787da5f2c1.jpg');
+}
+#item16:hover {
+    background-image: url('https://bi.im-g.pl/im/dc/54/18/z25510364II,Zabawy-na-sniegu.jpg');
+}
+#item17:hover {
+    background-image: url('https://rzeszowpodkarpackie.com/img/swiateczne-miasteczko/swiateczne-miasteczko-rzeszow-rynek-zima-snieg.jpg');
+}
+#item18:hover {
+    background-image: url('https://piaskowykon.pl/images/2023/03/09/jacuzzi-zima-n-730x387.gif');
+}
+#item19:hover {
+    background-image: url('https://m.media-amazon.com/images/I/81L-1UgL85L._AC_UF894,1000_QL80_.jpg');
+}
+#item20:hover {
+    background-image: url('https://planetescape.pl/blog//app/uploads/2020/11/9.-Austria-Solden.jpg');
+}
+#item21:hover {
+    background-image: url('https://img.wallpapic.pl/i1088-027-21/medium/drzewko-swiateczne-niebieskie-zima-przyroda-tapeta.jpg');
+}
+#item22:hover {
+    background-image: url('https://webp-konwerter.incdn.pl/eyJmIjoiaHR0cHM6Ly9nLmluZm9y/LnBsL3AvX2ZpbGVzLzM3NjUyMDAw/LzE1LXNodXR0ZXJzdG9jay0yMDYz/NjEyMTU5LTM3NjUyNDA1LmpwZyJ9.jpg');
+}
+#item23:hover {
+    background-image: url('https://ocdn.eu/pulscms-transforms/1/Ja1k9kpTURBXy81YzNlZGIwOGM4NWIxZTM4ZDlmZDZhNzE0NGQwOWVlOC5qcGeTlQMAH80D6M0CMpUCzQSwAMPDkwmmNmI2ZWMxBt4AAaEwAQ/snieg-czy-deszcz-oto-prognoza-na-swieta.jpeg');
+}
+#item24:hover {
+    background-image: url('https://www.tapeteos.pl/data/media/185/big/swieta__boze_narodzenie__christmas_2200_zima__snieg__choinki__szklana_kula.jpg');
+}
